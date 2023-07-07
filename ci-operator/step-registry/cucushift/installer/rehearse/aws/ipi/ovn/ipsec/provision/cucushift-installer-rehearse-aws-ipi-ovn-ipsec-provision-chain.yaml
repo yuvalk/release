@@ -3,7 +3,7 @@ chain:
   steps:
   - chain: ipi-conf-aws
   - ref: ovn-conf
-  - ref: ovn-conf-ipsec-manifest
+  - ref: ovn-conf-ipsec-pre414-manifest
   - chain: ipi-install
   - ref: enable-qe-catalogsource
   env:

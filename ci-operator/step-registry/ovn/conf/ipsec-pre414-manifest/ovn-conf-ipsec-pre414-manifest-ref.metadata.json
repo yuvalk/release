@@ -1,5 +1,5 @@
 {
-	"path": "ovn/conf/ipsec-manifest/ovn-conf-ipsec-manifest-ref.yaml",
+	"path": "ovn/conf/ipsec-pre414-manifest/ovn-conf-ipsec-pre414-manifest-ref.yaml",
 	"owners": {
 		"approvers": [
 			"sdn-approvers"

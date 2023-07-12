@@ -1,0 +1,11 @@
+{
+	"path": "baremetalds/e2e/ovn/ipsec-pre414/baremetalds-e2e-ovn-ipsec-pre414-workflow.yaml",
+	"owners": {
+		"approvers": [
+			"sdn-approvers"
+		],
+		"reviewers": [
+			"sdn-reviewers"
+		]
+	}
+}

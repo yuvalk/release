@@ -1,10 +1,10 @@
 workflow:
-  as: baremetalds-e2e-ovn-ipsec
+  as: baremetalds-e2e-ovn-ipsec-pre414
   steps:
     pre:
       - ref: baremetalds-packet-setup
       - ref: ipi-install-rbac
-      - ref: ovn-conf-ipsec-manifest
+      - ref: ovn-conf-ipsec-pre414-manifest
       - ref: baremetalds-devscripts-proxy
       - ref: baremetalds-devscripts-setup
     test:

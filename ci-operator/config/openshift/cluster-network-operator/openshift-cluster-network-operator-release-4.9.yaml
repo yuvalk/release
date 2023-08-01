@@ -85,7 +85,7 @@ tests:
   optional: true
   steps:
     cluster_profile: aws
-    workflow: openshift-e2e-aws-ovn-ipsec
+    workflow: openshift-e2e-aws-ovn-ipsec-pre414
 - as: e2e-metal-ipi-ovn-ipv6
   cluster: build05
   steps:

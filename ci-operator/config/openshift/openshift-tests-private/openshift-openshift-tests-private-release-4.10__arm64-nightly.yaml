@@ -426,7 +426,7 @@ tests:
       TAG_VERSION: '@4.10'
     test:
     - chain: openshift-e2e-test-qe
-    workflow: cucushift-installer-rehearse-aws-ipi-ovn-ipsec
+    workflow: cucushift-installer-rehearse-aws-ipi-ovn-ipsec-pre414
 - as: aws-ipi-ovn-ipsec-f28-destructive
   cron: 31 17 15 * *
   steps:
@@ -444,7 +444,7 @@ tests:
       TEST_ADDITIONAL: Network_Observability
     test:
     - chain: openshift-e2e-test-qe-destructive
-    workflow: cucushift-installer-rehearse-aws-ipi-ovn-ipsec
+    workflow: cucushift-installer-rehearse-aws-ipi-ovn-ipsec-pre414
 - as: aws-ipi-private-disasterrecovery-f28
   cron: 32 11 27 * *
   steps:

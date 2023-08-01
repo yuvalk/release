@@ -231,7 +231,7 @@ tests:
     test:
     - ref: cucushift-installer-check
     - chain: openshift-upgrade-qe-test
-    workflow: cucushift-installer-rehearse-aws-ipi-ovn-ipsec
+    workflow: cucushift-installer-rehearse-aws-ipi-ovn-ipsec-pre414
 - as: aws-ipi-private-f360
   cron: 49 11 17 3 *
   steps:

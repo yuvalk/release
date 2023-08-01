@@ -85,7 +85,7 @@ tests:
         and @network-ovnkubernetes and not @fips'
     test:
     - chain: openshift-upgrade-qe-test-heterogeneous
-    workflow: cucushift-installer-rehearse-aws-ipi-ovn-ipsec
+    workflow: cucushift-installer-rehearse-aws-ipi-ovn-ipsec-pre414
 - as: aws-ipi-ovn-ipsec-p2-f14
   cron: 42 12 14,29 * *
   steps:
@@ -99,7 +99,7 @@ tests:
     test:
     - ref: ipi-install-heterogeneous
     - chain: openshift-upgrade-qe-test
-    workflow: cucushift-installer-rehearse-aws-ipi-ovn-ipsec
+    workflow: cucushift-installer-rehearse-aws-ipi-ovn-ipsec-pre414
 - as: aws-ipi-p2-f14
   cron: 14 16 10,25 * *
   steps:

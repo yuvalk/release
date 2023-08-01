@@ -95,7 +95,7 @@ tests:
         and @network-ovnkubernetes and not @fips'
     test:
     - chain: openshift-upgrade-qe-test-arch-migration
-    workflow: cucushift-installer-rehearse-aws-ipi-ovn-ipsec
+    workflow: cucushift-installer-rehearse-aws-ipi-ovn-ipsec-pre414
 - as: aws-ipi-to-multiarch-p2-f14
   cron: 19 15 14,29 * *
   steps:

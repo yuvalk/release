@@ -1,10 +1,10 @@
 workflow:
-  as: openshift-e2e-aws-ovn-ipsec
+  as: openshift-e2e-aws-ovn-ipsec-pre414
   steps:
     pre:
     - chain: ipi-conf-aws
     - ref: ovn-conf
-    - ref: ovn-conf-ipsec-manifest
+    - ref: ovn-conf-ipsec-pre414-manifest
     - chain: ipi-install
     test:
     - ref: openshift-e2e-test
